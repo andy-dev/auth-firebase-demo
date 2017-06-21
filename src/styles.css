@@ -1,1 +1,250 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+/*default font size = 16px;*/
+/*1px = 0.0625em*/
+
+.debug{ outline: 1px solid red;}
+
+* {font-family: 'Source Sans Pro', sans-serif;}
+
+/***********************
+  Atomic Styles
+************************/
+
+/* margin */
+.m-0   { margin: 0;}
+.m-1   { margin: 0.0625em; /* 1px * 0.0625;*/}
+.m-2   { margin: 0.125em; /* 2px * 0.0625;*/}
+.m-5   { margin: 0.3125em; /* 5px * 0.0625;*/}
+.m-15  { margin: 0.9375em; /* 15px * 0.0625;*/ }
+.mr-0  { margin-right: 0; }
+.mr-1  { margin-right: 0.0625em /* 1px * 0.0625;*/ }
+.mr-5  { margin-right: 0.3125em; /* 5px * 0.0625;*/}
+.mr-10 { margin-right: 0.625em; /* 10px * 0.0625;*/ }
+.mr-15 { margin-right: 0.9375em; /* 15px * 0.0625;*/ }
+.ml-0  { margin-left: 0;}
+.ml-1  { margin-left: 0.0625em /* 1px * 0.0625;*/ }
+.ml-5  { margin-left: 0.3125em; /* 5px * 0.0625;*/}
+.ml-10 { margin-left: 0.625em; /* 10px * 0.0625;*/ }
+.ml-15 { margin-left: 0.9375em; /* 15px * 0.0625;*/ }
+.ml-30 { margin-left: 1.875em; /* 30px * 0.0625;*/ }
+.mt-10 { margin-top: 0.625em; /* 10px * 0.0625;*/ }
+.mt-15 { margin-top: 0.9375em; /* 15px * 0.0625;*/ }
+.mt-30 { margin-top: 1.875em; /* 30px * 0.0625;*/ }
+.mt-50 { margin-top: 3.125em; /* 50px * 0.0625;*/ }
+.mb-10 { margin-bottom: 0.625em; /* 10px * 0.0625;*/ }
+.mb-15 { margin-bottom: 0.9375em; /* 15px * 0.0625;*/ }
+.mb-30 { margin-bottom: 1.875em; /* 30px * 0.0625;*/ }
+
+/* text align */
+.ta-l { text-align: left; }
+.ta-r { text-align: right; }
+.ta-c { text-align: center; }
+
+/* boxshadow/ borders */
+.bxsh { box-shadow: 0 6px 12px rgba(0,0,0,.175);}
+.bt1g { border-top: 1px solid #CCCCCC}
+.bb1g { border-bottom: 1px solid #CCCCCC}
+
+/* paddings */
+.p-0   { padding: 0;}
+.p-5   { padding:0.3125em; /* 5px * 0.0625;*/}
+.p-15  { padding:0.9375em; /* 15px * 0.0625;*/ }
+.pt-5  { padding-top:0.3125em; /* 5px * 0.0625;*/}
+.pb-5  { padding-bottom:0.3125em; /* 5px * 0.0625;*/}
+.pb-10 { padding-bottom:0.625em; /* 10px * 0.0625;*/}
+.pb-30 { padding-bottom:1.875em; /* 30px * 0.0625;*/}
+.pl-5  { padding-left:0.3125em; /* 5px * 0.0625;*/}
+.pl-15 { padding-left:0.9375em; /* 15px * 0.0625;*/}
+.pr-15 { padding-right:0.9375em; /* 15px * 0.0625;*/}
+
+/* fonts family/weight */
+.ff-s   { font-family: 'Source Sans Pro', sans-serif }
+.fw-300 { font-weight: 300;}
+.fw-400 { font-weight: 400;}
+
+/* font size */
+.fz-12 { font-size: 0.8125em;  /* 12px * 0.0625;*/ }
+.fz-14 { font-size: 0.875em; /* 14px * 0.0625;*/ }
+.fz-16 { font-size: 1.00em;  /* 16px * 0.0625;*/ }
+.fz-18 { font-size: 1.125em; /* 18px * 0.0625;*/ }
+.fz-20 { font-size: 1.25em;  /* 20px * 0.0625;*/ }
+.fz-34 { font-size: 2.125em; /* 34px * 0.0625;*/ }
+.fz-50 { font-size: 3.125em; /* 50px * 0.0625;*/ }
+
+/* font style */
+.fs-i { font-style: italic;}
+
+/* float */
+.fl-r { float: right;}
+.fl-l { float: left;}
+
+/* background */
+.bg-w      { background: white;}
+.bg-f6f6f6 { background: #f6f6f6;}
+.bg-40A9F5 { background: #40A9F5;}
+.bg-323232 { background: #323232;}
+.bg-006699 { background: #006699;}
+.bg-6AC5FF { background: #6AC5FF;}
+
+/* color */
+.c-999999 { color: #999999;}
+.c-323231 { color: #323231;}
+.c-323232 { color: #323232;}
+.c-40A9F5 { color: #40A9F5;}
+.c-ffffff { color: #ffffff;}
+
+/* make buttons round */
+.round { border-radius: 24px;}
+
+/* line height/overflow/height/vertical height/whitespace/cursor */
+.ov-h    { overflow: hidden;}
+.lh-16   { line-height:1em; /* 14px * 0.0625;*/ }
+.h-30    { height: 1.875em; /* 30px * 0.0625;*/ }
+.h-160   { height:10em; /* 160px * 0.0625;*/}
+.h-100vh { height: 100vh;}
+.whs-nw  { white-space: nowrap;}
+.cp      { cursor: pointer;}
+/*displays*/
+.d-b  { display: block;}
+.li-n { list-style: none;}
+
+/***********************
+  CUSTOM BUTTONS
+************************/
+
+/* main btn blue background */
+.aha-btn {
+  padding: 5px 30px 5px;
+  border: none;
+  color:white;
+  background-color: #40A9F5;
+}
+
+.aha-btn-sm {
+  padding: 6px 18px;
+  border: none;
+  color:white;
+  background-color: #40A9F5;
+}
+
+.aha-btn-xs{
+  padding: 3px 18px;
+  font-size: 14px;
+  border: none;
+  color:white;
+  background-color: #40A9F5;
+}
+
+.aha-btn-xs-filt{
+  margin-top:2px;
+  margin-bottom:2px;
+  padding: 3px 18px;
+  font-size: 14px;
+  border: none;
+  color:white;
+  background-color: #40A9F5;
+}
+
+.aha-btn:hover, .aha-btn:focus ,
+.aha-btn-sm:hover, .aha-btn-sm:focus,
+.aha-btn-xs-filt:hover, .aha-btn-xs-filt:focus,
+.aha-btn-lg:hover, .aha-btn-lg:focus,
+.aha-btn-xs:hover,  .aha-btn-xs:focus  {
+  background-color: #6AC5FF;
+  color:white;
+}
+
+.aha-btn-lg {
+  padding: 10px 30px 10px;
+  color: white;
+  height: 42px;
+  border: 0 none;
+  background-color: #40A9F5;
+}
+
+/*white background blue border*/
+.aha-btn-wblue {
+  padding: 0 30px;
+  background-color: white;
+  border:1px solid #40A9F5;
+  color: #40A9F5;
+}
+
+.aha-btn-wblue-sm {
+  padding: 6px 18px;
+  background-color: white;
+  border:1px solid #40A9F5;
+  color: #40A9F5;
+}
+
+.aha-btn-wblue-xs {
+  padding: 3px 9px;
+  font-size: 14px;
+  background-color: white;
+  border:1px solid #40A9F5;
+  color: #40A9F5;
+}
+
+.aha-btn-wblue:hover, .aha-btn-wblue:focus,
+.aha-btn-no-border:hover, .aha-btn-no-border:focus,
+.aha-btn-wblue-sm:hover, .aha-btn-wblue-sm:focus,
+.aha-btn-wblue-xs:hover, .aha-btn-wblue-xs:focus  {
+  border: none;
+  color:white;
+  background-color: #6AC5FF;
+}
+
+/*white background black border*/
+.aha-btn-wb{
+  padding: 0 12px;
+  height: 28px;
+  width: 200px;
+  text-align: center;
+  color:black;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.aha-btn-wb:hover, .aha-btn-wb:focus,
+.dropdown.open > .aha-btn-wb {
+  background-color: #F6F6F6;
+  color: black;
+  border: 1px solid #f6f6f6;
+}
+
+/*white background black border*/
+.aha-btn-user{
+  padding: 0 12px;
+  height: 36px;
+  width: 150px;
+  text-align: center;
+  color:black;
+  background-color: #F6F6F6;
+  border:none;
+}
+
+.aha-btn-user:hover, .aha-btn-user:focus,
+.dropdown.open > .aha-btn-user {
+  background-color: #F6F6F6;
+  color: black;
+}
+
+/*button no border*/
+.aha-btn-no-border{
+  color: #40A9F5;
+  background: none;
+  border: none;
+  font-size: 12px;
+}
+
+.aha-member-label{
+  background-color: #40A9F5;
+  border-radius: 2.25em;
+  font-size: 60%;
+}
+
+.glyphicon-fullscreen{
+  cursor: pointer;
+}
+
